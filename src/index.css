@@ -9,59 +9,22 @@
   --primary: 188 74 60;
   --muted: 172 126 93;
 
-  font-family: 'Alegreya', 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  font-family: "Alegreya", "IBM Plex Sans", system-ui, -apple-system, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 1);
-  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8),
-               0 0 6px rgba(0, 0, 0, 0.9),
-               0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 6px rgba(0, 0, 0, 0.9),
+    0 0 10px rgba(0, 0, 0, 0.5);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  text-shadow: 0 0 8px rgba(0, 0, 0, 1),
-               0 0 15px rgba(0, 0, 0, 0.8),
-               0 0 4px rgba(255, 255, 255, 1),
-               0 0 12px rgba(255, 255, 255, 0.5);
-}
-
-a {
-  text-shadow: 0 0 6px rgba(0, 0, 0, 1),
-               0 0 3px rgba(255, 255, 255, 0.8),
-               0 0 8px rgba(0, 0, 0, 0.6);
-  position: relative;
-  z-index: 1;
-  font-weight: 500;
-}
-
-a:hover {
-  text-shadow: 0 0 8px rgba(0, 0, 0, 1),
-               0 0 4px rgba(255, 255, 255, 1),
-               0 0 12px rgba(0, 0, 0, 0.8);
-}
-
-p {
-  text-shadow: 0 0 6px rgba(0, 0, 0, 1),
-               0 0 2px rgba(255, 255, 255, 0.8),
-               0 0 8px rgba(0, 0, 0, 0.7);
-  font-weight: 500;
-}
-
-.text-white {
-  text-shadow: 0 0 8px rgba(0, 0, 0, 1),
-               0 0 4px rgba(255, 255, 255, 1),
-               0 0 15px rgba(0, 0, 0, 0.8);
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
-    --border: 225 206 172;
     --background: 0 0 0;
     --foreground: 255 255 255;
     --primary: 188 74 60;
