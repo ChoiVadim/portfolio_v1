@@ -6,28 +6,21 @@
   --border: 225 206 172;
   --background: 0 0 0;
   --foreground: 255 255 255;
-  --primary: 188 74 60;
-  --muted: 172 126 93;
+  --primary: 0 0 0;
+  --muted: 153 153 170;
 
   font-family: "Alegreya", "IBM Plex Sans", system-ui, -apple-system, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 1);
-  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8), 0 0 6px rgba(0, 0, 0, 0.9),
-    0 0 10px rgba(0, 0, 0, 0.5);
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: 0 0 0;
-    --foreground: 255 255 255;
-    --primary: 188 74 60;
-    --muted: 172 126 93;
+    --background: 255 255 255;
+    --foreground: 0 0 0;
+    --primary: 255 255 255;
+    --muted: 153 153 170;
   }
 }

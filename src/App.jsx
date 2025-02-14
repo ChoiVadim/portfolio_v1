@@ -1,14 +1,10 @@
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
-import { useEffect } from 'react'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Projects from './pages/Projects'
-import Navbar from './components/Navbar'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
+import Navbar from "./components/Navbar";
 
 function App() {
   useEffect(() => {
@@ -20,7 +16,7 @@ function App() {
       grainDensity: 1,
       grainWidth: 1,
       grainHeight: 1,
-      grainSpeed: 5
+      grainSpeed: 5,
     };
 
     window.grained("#divContainer", options);
@@ -38,7 +34,7 @@ function App() {
         </Routes>
       </Router>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;

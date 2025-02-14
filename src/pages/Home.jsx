@@ -28,7 +28,7 @@ const Home = () => {
   return (
     <>
       {isLoading && <Loader progress={progress} />}
-      <section className="full-container bg-transparent flex justify-center items-center">
+      <section className="bg-transparent flex justify-center items-center">
         {/*Info*/}
         <div className="absolute p-12 lg:p-0 lg:left-24 z-50 lg:w-1/3 ">
           <div className="flex flex-col">
@@ -50,19 +50,19 @@ const Home = () => {
               <div className="flex flex-col space-y-2 mt-16">
                 <a
                   href="#about"
-                  className="text-gray-400 hover:text-white transition-colors font-medium"
+                  className="text-muted hover:text-primary transition-colors font-medium"
                 >
                   ABOUT
                 </a>
                 <a
                   href="#experience"
-                  className="text-gray-400 hover:text-white transition-colors font-medium"
+                  className="text-muted hover:text-primary transition-colors font-medium"
                 >
                   EXPERIENCE
                 </a>
                 <a
                   href="#projects"
-                  className="text-gray-400 hover:text-white transition-colors font-medium"
+                  className="text-muted hover:text-primary transition-colors font-medium"
                 >
                   PROJECTS
                 </a>
@@ -73,7 +73,7 @@ const Home = () => {
               <div className="flex space-x-4 mt-16">
                 <a
                   href="https://github.com/ChoiVadim"
-                  className="hover:text-white"
+                  className="hover:hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -87,7 +87,7 @@ const Home = () => {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/vadimtsoi/"
-                  className="hover:text-white"
+                  className="hover:hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -101,7 +101,7 @@ const Home = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/choi_vadim/"
-                  className="hover:text-white"
+                  className="hover:hover:text-primary"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -119,7 +119,7 @@ const Home = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FileUser className="w-6 h-6 hover:text-white" />
+                  <FileUser className="w-6 h-6 hover:hover:text-primary" />
                 </a>
               </div>
             </BlurFade>
